@@ -1,0 +1,66 @@
+.content{
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+
+}
+.sidebar{
+    background: #000000;
+    width: 20%;
+    display: flex;
+    height: 100%;
+    flex-direction: column !important;
+    justify-content: space-between;
+    }
+    .mainside{
+    
+
+    width: 80%;
+    overflow: auto;    
+    
+}
+
+.logo{
+   height: 245px;
+   width: 245px;
+ background: url(../images/orangeMoney.png);
+    /* left: -4px;
+    top: 305px; */
+}
+
+.bottom_side_imge{
+    height: 245px;
+   width: 245px;
+ background: url(../images/certificate.png);
+}
+
+.img-custom{
+    width: 246px;
+height: 297px;
+}
+
+.title_nav{
+/* width: 409px;
+height: 135px; */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.brand{
+    width: 246px;
+    height: 297px;
+    background-color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar{
+       display: none;
+    }
+    
+}

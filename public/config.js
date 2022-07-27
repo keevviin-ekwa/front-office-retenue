@@ -1,0 +1,1 @@
+window.env = {'BASE_URL': 'https://localhost:5001/api/', 'CLIENT_KEYCLOAK': 'digital-client'};
